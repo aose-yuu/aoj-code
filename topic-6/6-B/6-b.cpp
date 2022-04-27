@@ -5,8 +5,12 @@
 using namespace std;
 
 int main() {
-    vector<vector<int>> v(4, vector<int>(13, 0));
-    vector<string> vs{"S", "H", "C", "D"};
+    vector<vector<int> > v(4, vector<int>(13, 0));
+    vector<char> vs(4);
+    vs.at(0) = 'S';
+    vs.at(1) = 'H';
+    vs.at(2) = 'C';
+    vs.at(3) = 'D';
     int n;
     scanf("%d", &n);
 
